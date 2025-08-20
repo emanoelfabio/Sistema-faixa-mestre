@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faixa Mestre</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/heroicons/2.0.16/24/outline/hero-icons.min.css" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'academy-primary': '#1F2937', // Dark Gray
+            'academy-secondary': '#374151', // Medium Gray
+            'academy-accent': '#3B82F6', // Blue
+            'academy-accent-hover': '#2563EB',
+            'academy-text': '#F3F4F6', // Light Gray
+            'academy-text-secondary': '#9CA3AF', // Lighter Gray
+            'belt-white': '#FFFFFF',
+            'belt-grey': '#A0AEC0',
+            'belt-yellow': '#FBBF24',
+            'belt-orange': '#F97316',
+            'belt-green': '#10B981',
+            'belt-blue': '#3B82F6',
+            'belt-purple': '#8B5CF6',
+            'belt-brown': '#A16207',
+            'belt-black': '#111827',
+          },
+        }
+      }
+    }
+  </script>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.6.2",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "@heroicons/react/": "https://esm.sh/@heroicons/react@^2.2.0/",
+    "@heroicons/react": "https://esm.sh/@heroicons/react@^2.2.0"
+  }
+}
+</script>
+</head>
+<body class="bg-academy-primary text-academy-text">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
